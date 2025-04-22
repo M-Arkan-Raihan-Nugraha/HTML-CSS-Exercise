@@ -1,0 +1,12 @@
+.grid{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+
+.col:nth-child(1){
+  background-color: lightblue;
+}
+
+.col:nth-child(2){
+  background-color: pink;
+}
